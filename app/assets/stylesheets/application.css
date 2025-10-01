@@ -8,3 +8,28 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+/* Estilos para la tabla */
+.styled-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #999999;
+    padding: 8px 12px;
+}
+
+.styled-table th {
+    background-color: #007bff; /* azul */
+    color: white;
+    text-align: left;
+}
+
+.styled-table td {
+    background-color: #cfcfb3; /* color beige */
+}
+
+.styled-table tr:hover td {
+    background-color: #e0e0d1; /* efecto hover */
+}

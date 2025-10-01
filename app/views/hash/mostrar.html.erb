@@ -1,8 +1,25 @@
 <h1>Segundo controlador</h1>
 <h2>Hashes</h2>
 
+<!-- app/views/tu_controlador/mostrar.html.erb -->
+<h1>Segundo controlador</h1>
+<h3>Hashes</h3>
 
-<p><strong>Nombre:</strong> <%= @persona[:nombre] %></p>
-<p><strong>Apellido:</strong> <%= @persona[:apellido] %></p>
-<p><strong>Teléfono:</strong> <%= @persona[:telefono] %></p>
-<p><strong>Correo:</strong> <%= @persona[:correo] %></p>
+<table class="styled-table">
+  <tr>
+    <th>Nombre</th>
+    <td><%= @persona[:nombre] %></td>
+  </tr>
+  <tr>
+    <th>Apellido</th>
+    <td><%= @persona[:apellido] %></td>
+  </tr>
+  <tr>
+    <th>Teléfono</th>
+    <td><%= @persona[:telefono] %></td>
+  </tr>
+  <tr>
+    <th>Correo</th>
+    <td><%= @persona[:correo] %></td>
+  </tr>
+</table>
